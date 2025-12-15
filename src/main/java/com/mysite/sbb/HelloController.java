@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping("/hello") //url 매핑 --> ' hello() <-->  /hello ' , ★ class 매핑이 아닌 메소드() 매핑
 //    @ResponseBody
-    public String hello(){
+    public String hi(){
         return "hello";
 
     }
