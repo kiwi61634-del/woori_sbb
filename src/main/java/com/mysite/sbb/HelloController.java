@@ -2,7 +2,6 @@ package com.mysite.sbb;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller    // HelloController --> 컨테이너
 public class HelloController {
