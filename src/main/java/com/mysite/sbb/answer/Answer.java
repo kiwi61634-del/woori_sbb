@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -18,7 +18,7 @@ public class Answer {
     @Column(columnDefinition = "TEXT")
     private String content;
 
-    private LocalDate createDate;
+    private LocalDateTime createDate;
 
     @ManyToOne
     private Question question;

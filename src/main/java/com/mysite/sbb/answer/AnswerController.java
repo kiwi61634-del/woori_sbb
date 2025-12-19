@@ -24,7 +24,7 @@ public class AnswerController {
                                @RequestParam(value = "content") String content) {
         Question question = this.questionService.getQuestion(id);
 
-        answerService.create(question, content);
+        answerService.createAnswer(question, content);
         return String.format("redirect:/question/detail/%s", id);
     }
 }
